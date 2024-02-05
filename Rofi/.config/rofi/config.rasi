@@ -1,0 +1,21 @@
+configuration {
+	modi: "window,drun,run,ssh";
+	bw: 1;
+	font: "mono 12";
+	show-icons: true;
+	drun-match-fields: "name,generic,exec,categories,keywords";
+  combi-modi: "window,run,drun,ssh";
+	matching: "fuzzy";
+	combi-hide-mode-prefix: true;
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+//@theme "/home/lucas/.local/share/rofi/themes/vaporwave-custome.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+@theme "/home/lucas/.local/share/rofi/themes/squared-everforest.rasi"
