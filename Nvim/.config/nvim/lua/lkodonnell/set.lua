@@ -6,7 +6,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 --indentation
 vim.opt.list = true
-vim.opt.smartindent = true
+vim.opt.smartindent = false
 vim.opt.autoindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
@@ -19,7 +19,7 @@ vim.opt.backup = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 --clipboard
-vim.opt.clipboard = unnamedplus
+vim.opt.clipboard = 'unnamed'
 
 vim.opt.scrolloff = 8
 --clear trailing whitespace

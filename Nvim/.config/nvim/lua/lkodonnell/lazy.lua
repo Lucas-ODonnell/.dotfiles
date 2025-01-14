@@ -12,7 +12,11 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{ "junegunn/fzf", dir = "~/.fzf", build = "./install -all" },
-	"jiangmiao/auto-pairs",
+  spec = {
+    {import = "plugins"},
+  },
+  { "junegunn/fzf", dir = "~/.fzf", build = "./install -all" },
+  "jiangmiao/auto-pairs",
+  checker = { enabled = true },
 })
 
